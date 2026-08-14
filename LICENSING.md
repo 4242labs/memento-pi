@@ -3,8 +3,9 @@
 Copyright (c) 2026 42labs.
 
 `@4242labs/pi-memento` is licensed under the [Apache License 2.0](LICENSE) —
-permissive: use it, ship it, modify it, embed it in closed source, no copyleft
-obligation and no separate commercial licence to buy.
+permissive: use it, ship it, modify it, embed it in closed source. No copyleft
+obligation, and no commercial licence to buy — under Apache-2.0 there is nothing
+to sell you that the licence does not already grant.
 
 That is a deliberate departure from the AGPL-3.0 the rest of 42labs publishes
 under. This package is a **thin lifecycle wrapper an operator installs into their
