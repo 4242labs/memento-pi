@@ -1,2 +1,8 @@
 node_modules/
 dist/
+
+# Claude Code -- local-only files stay untracked (kit hygiene)
+.claude/settings.local.json
+.claude/worktrees/
+.claude/hooks/*.local.json
+.worktrees/
