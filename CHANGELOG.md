@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.1 (2026-08-14)
+
+Nothing in the wrapper changed. npm snapshots the README at publish time, and the 0.1.0 page
+still showed a front door that had already been fixed in the repository.
+
+### Documentation
+
+* repo-lifecycle canon: status and maintenance badges, `LICENSING.md`, the contribution
+  licence grant, issue templates
+* `LICENSING.md` states the thing that actually matters here — this wrapper is Apache-2.0
+  while the engine it invokes is AGPL-3.0-only with a commercial option, and the boundary
+  between them is a process boundary rather than a link
+* no commercial-licence offer on this package — Apache-2.0 already grants what one would sell
+* no "experimental" banner; "pre-v1", and the specific thing that is unfinished is that no
+  live consolidation has run end to end
+
 ## 0.1.0 (2026-08-14)
 
 First release. Experimental: the lifecycle is wired and tested against a scripted engine, and
