@@ -125,8 +125,15 @@ import { MementoCli, consolidateOnce } from "@4242labs/pi-memento";
 - pi **0.84.1** or later
 - MEMENTO engine **0.1.0** or later
 
+## The engine's own terms
+
+The MEMENTO engine this wrapper invokes is licensed separately (AGPL-3.0-only, commercial on
+request). Installing it is your choice and its terms are its own; this package is the wrapper
+only.
+
 ## License
 
-This wrapper is Apache-2.0 — see [LICENSE](LICENSE). The MEMENTO engine it invokes is
-licensed separately (AGPL-3.0-only, commercial on request); installing it is your choice and
-its terms are its own.
+Open source — [Apache-2.0](LICENSE). Commercial — contact ahoy@42labs.io.
+
+---
+If it earned its keep, [coffee is appreciated](https://buymeacoffee.com/42piratas). ☕
