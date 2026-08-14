@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: The MEMENTO engine itself
+    url: https://github.com/4242labs/memento
+    about: Gates, consolidation rules, exit codes — the engine owns those, not this wrapper.
+  - name: Something else entirely
+    url: mailto:ahoy@42labs.io
+    about: Commercial use of the engine, a conversation, or anything that isn't a bug or a question.

@@ -1,0 +1,28 @@
+name: Bug report
+description: Something the wrapper did that it should not have — especially anything that touched the store when the engine refused.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This package reads exit codes and `--json` payloads and nothing else. If it acted on
+        console prose, or worked around a refusal, that is the report worth filing first.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What the pass did, and what you expected instead.
+    validations: { required: true }
+  - type: textarea
+    id: payload
+    attributes:
+      label: What the engine returned
+      description: The exit code and the `--json` payload, redacted as needed. Never paste store contents you would not publish.
+      render: json
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: "`pi --version`, `memento --version`, this package's version, and the engine's git pin."
+      placeholder: "pi 0.84.1 · memento 0.1.0 (02a31e8) · @4242labs/pi-memento 0.1.0"
+    validations: { required: true }

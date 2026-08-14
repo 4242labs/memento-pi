@@ -1,8 +1,9 @@
 # Contributing
 
 > [!IMPORTANT]
-> **Experimental.** This package wraps a memory engine that gates every write. Its own
-> surfaces — config shape, state records, the pass's outcomes — are not stable yet.
+> **Pre-v1.** This package wraps a memory engine that gates every write. Its own surfaces —
+> config shape, state records, the pass's outcomes — are not stable yet, and a change that
+> breaks yours can land in a minor version.
 
 ## What this is, and what it is not
 
@@ -47,3 +48,10 @@ the flags on each one are asserted against real invocations.
   `git config core.hooksPath .githooks`.
 - **Conventional Commits** — `release-please` builds the changelog and the version from them.
 - **Every change lands through a pull request** with CI green.
+
+## Licence of contributions
+
+By submitting a pull request you agree that your contribution is licensed under the same
+Apache-2.0 terms as the rest of the project, per section 5 of the licence itself. See
+[LICENSING.md](LICENSING.md) — including why the engine this package invokes is licensed
+differently.

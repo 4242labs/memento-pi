@@ -1,11 +1,16 @@
 # @4242labs/pi-memento
 
+[![Project Status: WIP](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Maintenance](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg)](CONTRIBUTING.md)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@4242labs/pi-memento)](https://www.npmjs.com/package/@4242labs/pi-memento)
+
 MEMENTO for [Pi](https://github.com/earendil-works/pi-mono) — persistent memory for a Pi
 session. Recall what matters at session start, journal decisions as they are made,
 consolidate later so the next session starts where this one ended.
 
-> **Status: experimental.** The lifecycle is wired and tested against a scripted engine; it
-> has not yet run a live consolidation end to end.
+> **Pre-v1.** The lifecycle is wired and tested against a scripted engine. It has not yet run a
+> live consolidation end to end — that is the specific thing still missing.
 
 ## What it wraps
 
