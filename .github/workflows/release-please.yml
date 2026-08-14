@@ -1,0 +1,22 @@
+name: release-please
+
+# Maintains package.json + CHANGELOG.md from conventional-commit history on merge to main.
+# See CONTRIBUTING.md (commit convention).
+# Uses the repository secret RELEASE_PLEASE_TOKEN to open the release PR (the default
+# GITHUB_TOKEN cannot create PRs). Until that secret exists the workflow is inert — it fails
+# loudly rather than silently skipping a release.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # manual re-run, e.g. after a bootstrap-tag fix
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@v4
+        with:
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
