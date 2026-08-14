@@ -19,3 +19,5 @@ jobs:
       - run: npm ci --no-audit --no-fund
       - run: npm run check
       - run: npm run typecheck
+      - run: npm test
+      - run: npm run pack:check
