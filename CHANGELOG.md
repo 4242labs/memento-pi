@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/4242labs/memento-pi/compare/pi-memento-v0.1.1...pi-memento-v0.2.0) (2026-08-20)
+
+
+### Features
+
+* the lifecycle — journal, enqueue, and one bounded consolidation pass ([#3](https://github.com/4242labs/memento-pi/issues/3)) ([070ca5d](https://github.com/4242labs/memento-pi/commit/070ca5df6f154479b3980eaa43d5ecf9a1d63f8b))
+
 ## 0.1.1 (2026-08-14)
 
 Nothing in the wrapper changed. npm snapshots the README at publish time, and the 0.1.0 page

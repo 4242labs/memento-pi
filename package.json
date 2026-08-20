@@ -1,6 +1,6 @@
 {
   "name": "@4242labs/pi-memento",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "MEMENTO for Pi — persistent memory for a Pi session: recall at start, journal as you go, consolidate on exit.",
   "type": "module",
   "license": "Apache-2.0",
