@@ -101,7 +101,7 @@ with an engine you did not ask for.
   "adapterFile": "./adapter.json",
   "minIdleSeconds": 5,
   "journalTurns": true,
-  "expectedRev": "02a31e8d1fdce1616bba3cfbca60f8af5eae8e4a",
+  "expectedRev": "264564058c255ce5b5cef72bfc18063459cf7abc",
   "binary": "memento"
 }
 ```
