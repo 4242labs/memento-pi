@@ -136,6 +136,11 @@ The MEMENTO engine this wrapper invokes is licensed separately (AGPL-3.0-only, c
 request). Installing it is your choice and its terms are its own; this package is the wrapper
 only.
 
+## Contributors
+
+<!-- contributors:start -->
+<!-- contributors:end -->
+
 ## License
 
 Open source — [Apache-2.0](LICENSE).
